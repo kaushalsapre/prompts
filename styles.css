@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 20px;
+  padding: 0;
+  height: 100%;
+  display: block;
+  font-family: 'serif';
+  font-weight: normal;
+  font-style: normal;
+  font-size: auto;
+  text-align: center;
+  color: #333;
+}
+
+/* @font-face {
+    font-family: 'Goethe FF Clan';
+    src: url('assets/GoetheFFClan.eot');
+    src: url('assets/GoetheFFClan.eot?#iefix') format('embedded-opentype'),
+        url('assets/GoetheFFClan.woff2') format('woff2'),
+        url('assets/GoetheFFClan.woff') format('woff'),
+        url('assets/GoetheFFClan.ttf') format('truetype'),
+        url('assets/GoetheFFClan.svg#GoetheFFClan') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */
+
+
+.container{
+  height:100vh;
+}
+
+.header{
+width:100%;
+height:auto;
+/* height:10% */
+}
+
+.footer{
+  width:100%;
+  height:auto;
+  /* height:10vh; */
+}
+
+.responsive{
+  width: 70%;
+   height: auto;
+}
+
+/* .responsivevid{
+  max-width: 200%;
+ height: auto;
+} */
+
+/* #story{
+  padding: 10vh;
+} */
+#prmpt1 {
+/* padding-top: 10vh; */
+height: 80vh;
+overflow: hidden;
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+-webkit-column-gap: 10px;
+-moz-column-gap: 10px;
+column-gap: 10px;
+-webkit-column-rule: 1px solid rgba(28,110,164,0.19);
+-moz-column-rule: 1px solid rgba(28,110,164,0.19);
+column-rule: 1px solid rgba(28,110,164,0.19);
+}
+
+#prmpt2 {
+  height: 80vh;
+  overflow: hidden;
+  padding:10vw;
+}
+
+#prmpt3 {
+  height: 80vh;
+  overflow: hidden;
+  /* padding: 10vw; */
+}
+
+#prmpt4 {
+  height: 80vh;
+  overflow: hidden;
+  padding: 10vw;
+  /* padding-left: 10vw;
+  padding-right: 10vw; */
+}
+
+#prmpt5 {
+  height: 80vh;
+  overflow: hidden;
+}
+
+#prmpt6 {
+  height: 80vh;
+  overflow: hidden;
+}
+
+#prmpt7 {
+  height: 80vh;
+  overflow: hidden;
+  position:relative;
+}
+
+#prmpt8 {
+  height: 80vh;
+  overflow: hidden;
+}
+
+
+#prmpt9 {
+  height: 80vh;
+  overflow: hidden;
+  padding: 10vw;
+}
